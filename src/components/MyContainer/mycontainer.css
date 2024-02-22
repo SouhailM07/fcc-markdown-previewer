@@ -3,3 +3,17 @@
 @tailwind utilities;
 @layer components {
 }
+h1 {
+  @apply !text-[3rem];
+}
+h2 {
+  @apply !text-[2rem];
+}
+
+h3 {
+  @apply !text-[1.8rem];
+}
+
+p {
+  @apply !text-[16px];
+}
